@@ -1,0 +1,64 @@
+.container{
+    width: 450px;
+    border: 2px solid black;
+    padding:15px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 50px auto 50px;
+    
+}
+body{
+    background-color:orchid;
+}
+.title{
+    color:black;
+    margin-bottom: 10px; 
+}
+.question{
+    color:blue;
+    margin-bottom: 15px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    padding:8px;
+    width: 90%;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+   
+   border: 1px solid black;
+  
+}
+
+
+
+
+   
+
+ .nextbutton{
+    
+    text-align: center;
+    background-color: blue;
+    width:25%;
+    color:#fff;
+    padding:8px;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    margin:15px auto 0px;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    
+   
+}
+.correct{
+    background-color: green;
+}
+
+.incorrect{
+    background-color: red;
+}
+
